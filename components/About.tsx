@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { services } from "@/data";
 import { SectionWrapper } from "../hoc/index";
 import { fadeIn } from "../lib/motion";
+import Image from "next/image";
 import "./about.css";
 
 interface IServiceCard {
@@ -32,6 +33,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
             src={icon}
             alt="web-development"
             className="h-16 w-16 object-contain"
+            
           />
 
           <h3 className="text-center text-[20px] font-bold  text-white">

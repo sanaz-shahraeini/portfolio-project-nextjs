@@ -55,6 +55,7 @@ export const workExperience = [
     desc: "Collaborated in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    size:95
   },
   {
     id: 2,
@@ -62,6 +63,7 @@ export const workExperience = [
     desc: "Designed and developed 10+ front-end and back-end web applications utilizing ReactJS and Node.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
+    size:98
   },
   {
     id: 3,
@@ -69,6 +71,7 @@ export const workExperience = [
     desc: "Led the dev of a web apps for International clients, from initial concept to deployment",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+    size:103
   },
   {
     id: 4,
@@ -76,6 +79,7 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+    size:123
   },
 ];
 
