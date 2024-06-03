@@ -1,8 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -63,13 +63,13 @@ const Hero = () => {
             Hi! I&apos;m Sanaz, Full-Stack Developer & Instructor
           </p>
 
-          <a href="#about">
+          <Link download href="/Sanaz-Shahraeini-CV.pdf" target="_blank" rel="noopener noreferrer">
             <MagicButton
               title="Download my CV"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

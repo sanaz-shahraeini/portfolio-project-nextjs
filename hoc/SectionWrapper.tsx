@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../constants1/styles";
+import { styles } from "../constants/styles";
 
 interface Props {
   Component: React.ElementType;

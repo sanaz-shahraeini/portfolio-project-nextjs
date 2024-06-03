@@ -232,7 +232,7 @@ export const services = [
     icon: "/assets/backend.png",
   },
   {
-    title: "Content Creator",
+    title: "Web Dev Instructor",
     icon: "/assets/creator.png",
   },
 ];
