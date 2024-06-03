@@ -51,9 +51,10 @@ const About = () => {
       </h1>
      
         <p className="text-start text-white-100 my-10 font-bold text-[20px]">
-          I'm a skilled web developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Next.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
+          I'm a skilled web developer with experience in TypeScript &
+          JavaScript, and expertise in frameworks like React, Next.js &
+          Three.js.
+          <br/>I'm a quick learner and collaborate closely with clients to
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
         </p>
