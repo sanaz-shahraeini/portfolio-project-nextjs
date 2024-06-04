@@ -19,7 +19,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
     <div className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="border-3 w-full rounded-[20px] p-[1px]"
+        className="border-4 w-full rounded-[20px] p-[1px]"
         style={{
           background: "rgb(4,7,29)",
           backgroundColor:
@@ -62,9 +62,10 @@ const About = () => {
       </p>
 
       <div className="mt-20 flex flex-wrap gap-6 max-sm:justify-center">
+    
         {services.map((service, index) => (
-          <Button
-            key={index}
+            <Button
+            
             //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 9000) + 9000}
             borderRadius="2.75rem"
@@ -80,9 +81,10 @@ const About = () => {
             // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard key={service.title} index={index} {...service} />
           </Button>
         ))}
+       
       </div>
     </section>
   );
