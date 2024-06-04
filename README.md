@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## My 3D Portfolio 
+# Created with Next.js & Three.js
+
 ## Getting Started
 
 First, run the development server:
@@ -34,3 +37,60 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Folder Structure
+
+```
+└── 📁node modules
+└── 📁public
+└── 📁app
+    └── favicon.ico
+    └── globals.css
+    └── layout.tsx
+    └── page.tsx
+    └── provider.tsx
+└── 📁components
+    └── About.tsx
+    └── Approach.tsx
+    └── Experience.tsx
+    └── Footer.tsx
+    └── Hero.tsx
+    └── MagicButton.tsx
+    └── Mystudents.tsx
+    └── RecentProjects.tsx
+    └── 📁ui
+        └── CanvasRevealEffect.tsx
+        └── FloatingNavbar.tsx
+        └── GradientBg.tsx
+        └── HoverBorder.tsx
+        └── InfiniteCards.tsx
+        └── LayoutGrid.tsx
+        └── MovingBorders.tsx
+        └── Pin.tsx
+        └── Spotlight.tsx
+        └── TextGenerateEffect.tsx
+        └── Vortex.tsx
+└── 📁constants
+    └── styles.ts
+└── 📁data
+    └── confetti.json
+    └── index.ts
+└── 📁hoc
+    └── index.ts
+    └── SectionWrapper.tsx
+└── 📁lib
+    └── motion.ts
+    └── utils.ts
+── 📁types
+    └── index.d.mts
+└── next-env.d.mts
+└── next.config.mjs
+└── package-lock.json
+└── package.json
+└── .gitignore
+└── README.md
+└── tailwind.config.ts
+└── tsconfig.json
+
+
+```

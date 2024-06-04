@@ -30,7 +30,7 @@ const Hero = () => {
        */}
       <div
         className="h-screen w-full dark:bg-black bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
+       absolute top-0 left-0 flex items-center justify-center "
       >
         {/* Radial gradient for the container to give a faded look
         
@@ -60,7 +60,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Sanaz, Full-Stack Developer & Instructor
+            Hi! I'm Sanaz, Full-Stack Developer & Instructor
           </p>
 
           <Link download href="/Sanaz-Shahraeini-CV.pdf" target="_blank" rel="noopener noreferrer">

@@ -6,7 +6,6 @@ export const navItems = [
 ];
 
 export const gridItems = [
-  
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -44,9 +43,7 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
-  
 ];
-
 
 export const workExperience = [
   {
@@ -55,7 +52,8 @@ export const workExperience = [
     desc: "Collaborated in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-    size:95
+    width: 95,
+    height: 87,
   },
   {
     id: 2,
@@ -63,7 +61,8 @@ export const workExperience = [
     desc: "Designed and developed 10+ front-end and back-end web applications utilizing ReactJS and Node.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-    size:98
+    width: 98,
+    height: 97,
   },
   {
     id: 3,
@@ -71,7 +70,8 @@ export const workExperience = [
     desc: "Led the dev of a web apps for International clients, from initial concept to deployment",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-    size:103
+    width: 103,
+    height: 98,
   },
   {
     id: 4,
@@ -79,7 +79,8 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-    size:123
+    width: 123,
+    height: 87,
   },
 ];
 
@@ -87,22 +88,22 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/sanaz-shahraeini"
+    link: "https://github.com/sanaz-shahraeini",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:""
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/sanaz-shahraeini-80019026"
-  }
+    link: "https://www.linkedin.com/in/sanaz-shahraeini-80019026",
+  },
 ];
 export const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: "/assets/web.png",
   },
   {
