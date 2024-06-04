@@ -1,4 +1,4 @@
-import type { TMotion } from "../types/index.d1";
+import type { TMotion } from "../types/index.d.mts";
 import { Variants } from "framer-motion";
 
 export const textVariant = () => {
