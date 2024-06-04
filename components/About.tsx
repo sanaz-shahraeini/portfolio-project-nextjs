@@ -52,7 +52,7 @@ const About = () => {
         Who <span className="text-purple">I am?</span>
       </h1>
      
-        <p className=" text-white-100 my-10 font-bold text-[20px] text-justify">
+        <p className=" text-white-100 my-10 font-bold text-[20px] text-center">
           I'm a skilled web developer with experience in TypeScript &
           JavaScript, and expertise in frameworks like React, Next.js &
           Three.js.
