@@ -60,10 +60,15 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I'm Sanaz, Full-Stack Developer & Instructor
+            Hi! I'm Sanaz, Full-Stack Developer & Lecturer
           </p>
 
-          <Link download href="/Sanaz-Shahraeini-CV.pdf" target="_blank" rel="noopener noreferrer">
+          <Link
+            download
+            href="/Sanaz-Shahraeini-CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <MagicButton
               title="Download my CV"
               icon={<FaLocationArrow />}
