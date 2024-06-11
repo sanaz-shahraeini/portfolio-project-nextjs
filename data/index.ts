@@ -115,7 +115,7 @@ export const services = [
     icon: "/assets/backend.png",
   },
   {
-    title: "Web Dev Instructor",
+    title: "Web Dev Lecturer",
     icon: "/assets/creator.png",
   },
 ];

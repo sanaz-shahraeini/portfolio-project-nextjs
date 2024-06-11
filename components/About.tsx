@@ -16,18 +16,19 @@ interface IServiceCard {
 
 const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
   <Tilt glareEnable tiltEnable tiltMaxAngleX={30} tiltMaxAngleY={30}>
-    <div className="xs:w-[250px] w-full">
+    <div className="w-full" >
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="border-4 w-full rounded-[20px] p-[1px]"
+        className="border-4 rounded-[20px] p-[1px]"
         style={{
           background: "rgb(4,7,29)",
           backgroundColor:
             "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
           borderColor: "rgb(84, 5, 137)",
         }}
+       
       >
-        <div className="flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 gap-2">
           <Image
             src={icon}
             alt="web-development"
@@ -52,7 +53,7 @@ const About = () => {
         Who <span className="text-purple">I am?</span>
       </h1>
 
-      <p className="text-white-100 my-10 text-[20px] text-center">
+      <p className="text-white-100 my-10 md:text-[20px] text-center">
         I'm a skilled web developer with experience in TypeScript & JavaScript,
         and expertise in frameworks like React, Next.js & Three.js.
         <br />
@@ -61,7 +62,7 @@ const About = () => {
         problems. Let's work together to bring your ideas to life!
       </p>
 
-      <div className="mt-20 flex flex-wrap gap-6 max-sm:justify-center">
+      <div className="mt-20 flex flex-col md:flex-row gap-4 justify-center">
     
         {services.map((service, index) => (
             <Button
