@@ -62,7 +62,7 @@ const About = () => {
         problems. Let's work together to bring your ideas to life!
       </p>
 
-      <div className="mt-20 flex flex-col md:flex-row gap-4 justify-center">
+      <div className="mt-20 flex md:flex-row flex-col gap-4 justify-center">
     
         {services.map((service, index) => (
             <Button
