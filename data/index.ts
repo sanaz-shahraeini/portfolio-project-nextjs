@@ -37,11 +37,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Centre - Fitness SaaS Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/ex3.png",
+    img: "/ex4.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "",
+    link: "https://centr.com/",
   },
 ];
 
@@ -98,24 +98,28 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanaz-shahraeini-80019026",
+    link: "https://www.linkedin.com/in/sanaz-shahraeini",
   },
 ];
 export const services = [
   {
+    id: 1,
     title: "Frontend Developer",
-    icon: "/assets/web.png",
+    icon: "/web.png",
   },
   {
+    id: 2,
     title: "Python Programmer",
-    icon: "/assets/mobile.png",
+    icon: "/mobile.png",
   },
   {
+    id: 3,
     title: "Backend Developer",
-    icon: "/assets/backend.png",
+    icon: "/backend.png",
   },
   {
+    id: 4,
     title: "Web Dev Lecturer",
-    icon: "/assets/creator.png",
+    icon: "/creator.png",
   },
 ];

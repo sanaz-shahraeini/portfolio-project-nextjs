@@ -21,7 +21,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="myProjects"
-              href="https://github.com/sanaz-shahraeini"
+              href="https://github.com/sanaz-shahraeini/"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[25vh] lg:h-[25vh] mb-10">
                 <div

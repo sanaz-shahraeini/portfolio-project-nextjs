@@ -48,7 +48,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-10">
       <h1 className="heading">
         Who <span className="text-purple">I am?</span>
       </h1>
