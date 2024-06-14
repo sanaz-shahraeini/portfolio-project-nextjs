@@ -3,6 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import Link from "next/link";
 import Image from "next/image";
 
 const RecentProjects = () => {
@@ -20,11 +21,11 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="myProjects"
-              href="#"
+              href="https://github.com/sanaz-shahraeini"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[25vh] lg:h-[25vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  className="relative w-full h-full overflow-hidden rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <Image src="/bg.png" alt="bgimg" fill />
@@ -32,7 +33,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 rounded-3xl"
                 />
               </div>
 
@@ -67,7 +68,10 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    <Link href={item.link} target="_blank">
+                      {" "}
+                      Check Live Site{" "}
+                    </Link>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
