@@ -23,7 +23,7 @@ const RecentProjects = () => {
               title="myProjects"
               href="https://github.com/sanaz-shahraeini/"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[25vh] lg:h-[25vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[27vh] md:h-[25vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}

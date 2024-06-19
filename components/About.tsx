@@ -16,7 +16,7 @@ interface IServiceCard {
 
 const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
   <Tilt glareEnable tiltEnable tiltMaxAngleX={30} tiltMaxAngleY={30}>
-    <div className="w-full" >
+    <div className="w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="border-4 rounded-[20px] p-[1px]"
@@ -26,7 +26,6 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
             "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
           borderColor: "rgb(84, 5, 137)",
         }}
-       
       >
         <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 gap-2">
           <Image
@@ -63,10 +62,8 @@ const About = () => {
       </p>
 
       <div className="mt-20 flex md:flex-row flex-col gap-4 justify-center">
-    
         {services.map((service, index) => (
-            <Button
-            
+          <Button
             //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 9000) + 9000}
             borderRadius="2.75rem"
@@ -82,10 +79,9 @@ const About = () => {
             // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-          <ServiceCard key={service.title} index={index} {...service} />
+            <ServiceCard key={service.title} index={index} {...service} />
           </Button>
         ))}
-       
       </div>
     </section>
   );
